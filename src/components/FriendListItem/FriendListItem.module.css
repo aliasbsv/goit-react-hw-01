@@ -1,0 +1,30 @@
+.friendItem {
+  padding: 15px;
+  background-color: rgba(224, 203, 186, 0.614);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+  border: 3px solid #4e2802ce;
+}
+
+.friendAvatar {
+  width: 150px;
+  height: 150px;
+}
+
+.friendName {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.friendStatus {
+  font-size: 20px;
+  font-weight: 400;
+  color: red;
+}
+
+.online {
+  color: green;
+}
